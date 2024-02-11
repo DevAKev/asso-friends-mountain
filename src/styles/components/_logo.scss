@@ -1,0 +1,30 @@
+.logo-img {
+display: inline-block;
+text-align: center;
+max-width: 100%;
+width: 200px;
+height: 150px;
+}
+
+.logo-title {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: oblique;
+    font-family: 'Sigmar', cursive;
+    color: rgb(51, 0, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 991px) {
+    .logo-title {
+        font-size: 0.9rem;
+    }
+    .logo-img {
+        width: 150px;
+        height: 100px;
+    }
+}

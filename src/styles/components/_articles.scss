@@ -1,0 +1,50 @@
+/* Style Articles */
+
+h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  h2 {
+    margin-left: 1rem;
+  }
+  
+  h3 {
+    margin-left: 1rem;
+  }
+  
+  .card {
+    border-radius: 15px;
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .btn-success {
+    background-color: #3b6b94;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #042b50;
+  }
+  
+  p {
+    margin-bottom: 2em;
+  }
